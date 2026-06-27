@@ -75,3 +75,24 @@ p {
 a {
   color: #222;
 }
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    cursor: pointer;
+}
+
+.project-year {
+    font-size: 12px;
+    color: #999;
+}
+
+.project-body {
+    display: none;
+    padding-top: 12px;
+}
+
+.project-body.open {
+    display: block;
+}
